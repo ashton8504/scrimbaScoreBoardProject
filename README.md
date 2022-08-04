@@ -1,1 +1,1 @@
-# scrimbaScoreBoardProject
+# Scrimba Scoreboard Project

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Michael Jordan's Playground - Scoreboard</title>
+</head>
+
+<body class="body">
+    
+    <h1 class="jordans-name">Michael Jordan's Playground Scoreboard</h1>
+    <div class="container">
+        <div class="column">
+            <h3 class="teams-labels">HOME</h3>
+            <h2 class="home-score" id="homescore-el">0</h2>
+            <div class="btn-style-home">
+                <button id="home" class="btn-style-home" onclick="btn(this)" value="1">+1</button>
+                <button id="home" class="btn-style-home" onclick="btn(this)" value="2">+2</button>
+                <button id="home" class="btn-style-home" onclick="btn(this)" value="3">+3</button>
+            </div>
+            <button class="reset-btn1" onclick="resetHome1()">Reset Score</button>
+        </div>
+
+        <h3 class="teams-labels">VS</h3>
+
+        <div class="column">
+            <h3 class="teams-labels">AWAY</h3>
+            <h2 class="guest-score" id="guestscore-el">0</h2>
+            <div class="btn-style-guest">
+                <button id="guest" class="btn-style-guest" onclick="btn(this)" value="1">+1</button>
+                <button id="guest" class="btn-style-guest" onclick="btn(this)" value="2">+2</button>
+                <button id="guest" class="btn-style-guest" onclick="btn(this)" value="3">+3</button>
+            </div>
+            <button class="reset-btn" onclick="resetGuest()">Reset Score</button>
+        </div>
+    </div>
+    
+        <script src="index.js"></script>
+</body>
+</html>

@@ -12,6 +12,9 @@
     text-align: center;
     background-color: #1B244A;
     background-size: cover;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat; 
 }
 .jordans-name, 
 .teams-labels{

@@ -93,3 +93,14 @@
     box-shadow: 0 5px rgb(25, 88, 225);
     transform: translateY(4px);
 }
+
+@media only screen and (max-device-width: 480px) {
+    .bodyClass {
+        width: 50%;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+    }
+
+
+}
